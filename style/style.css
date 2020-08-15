@@ -1,0 +1,52 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: grid;
+}
+title {
+    display: none;
+}
+
+body {
+    background-image: url('https://f4.bcbits.com/img/a1811713498_10.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    background-color: grey;
+}
+
+h1 {
+    border: 2px solid white;
+    padding: 5px;
+    width: 13rem;
+    text-align: center;
+    opacity: 1;
+}
+
+.songeven {
+justify-self: start;
+background-color: black;
+opacity: 50%;
+
+}
+
+.songodd {
+justify-self: end;
+background-color: white;
+opacity: 50%;
+
+}
+
+.songeven,
+.songodd {
+    border: 1px solid white;
+    width: 75%;
+    height: 200px;
+}
+
