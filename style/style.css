@@ -1,6 +1,5 @@
-* {
+.main {
     font-family: 'Roboto', sans-serif;
-    color: white;
     display: grid;
 }
 title {
@@ -16,9 +15,10 @@ body {
 
 header {
     width: 100%;
-    height: auto;
+    height: 200px;
     justify-content: center;
     background-color: grey;
+    color: white;
 }
 
 h1 {
@@ -33,6 +33,7 @@ h1 {
 justify-self: start;
 background-color: black;
 opacity: 50%;
+color:white;
 
 }
 
@@ -40,6 +41,7 @@ opacity: 50%;
 justify-self: end;
 background-color: white;
 opacity: 50%;
+color: black;
 
 }
 
@@ -47,6 +49,13 @@ opacity: 50%;
 .songodd {
     border: 1px solid white;
     width: 75%;
-    height: 200px;
+    height: 250px;
 }
 
+a {
+    color: red;
+}
+
+q {
+    quotes: none;
+}
